@@ -4,19 +4,18 @@ body {
   font-size: 16px;
   background-color: hsl(225, 100%, 94%);
   flex-direction: column;
+position: relative;
 }
 .card {
-  margin: auto;
+  margin: 6rem auto 2rem auto;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  width: 30rem;
+  width: 28.12rem;
   height: 40rem;
-  padding: 10rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   align-content: center;
-  padding: 20px;
   background-color: whitesmoke;
 }
 .card:hover,
@@ -30,18 +29,40 @@ body {
   color: gray;
 }
 .small_box {
-  background-color: lightblue;
+    display: flex;
+    margin: 10px auto;
+    padding: 6px 30px;
+    width: 50%;
+    height: 10%;
+    border-radius: 8px;
+  background-color: hsl(225, 100%, 94%);
+ 
 }
-
+.music_icon{
+    align-self: center;
+    margin: auto;
+}
 .small-para {
-  font-size: 16px;
+
+    flex:1;
+  font-size: 1rem;
+  margin: 10px;
+  justify-content: center;
   font-weight: normal;
   color: gray;
 }
-.change {
-  float: right;
+.small_heading{ 
+    font-weight: 700;
+    flex:1;
+ 
+    margin-right: 2rem;
+    margin-top: 2px;
+    line-height: 2rem;
 }
-
+.change{
+    flex: 1;
+    align-self: center;
+}
 .proceed {
   width: 20rem;
   font-weight: 700;
@@ -63,4 +84,15 @@ body {
   color: rgb(99, 95, 95);
   border-width: 0;
   background-color: whitesmoke;
+}
+.background_svg {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+
+}
+.hero {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 10px 0px 0px;
 }
