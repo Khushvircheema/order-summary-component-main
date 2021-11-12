@@ -1,11 +1,38 @@
-body {
+body,html {
   display: flex;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   background-color: hsl(225, 100%, 94%);
   flex-direction: column;
 position: relative;
+z-index: 1;
+background-image: url(/images/pattern-background-desktop.svg);
 }
+/* @media (max-width: 375px) {
+    background-image;
+} */
+
+/* Hover states */
+.card:hover,
+.proceed:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.proceed:hover{
+   background-color: hsla(245, 75%, 52%, 0.637) ;
+
+}
+a:hover{
+    color: hsla(245, 75%, 52%, 0.637);
+   text-decoration: none;
+}
+.cancel_order:hover{
+    color: black;
+}
+
+/* card */
+
+
 .card {
   margin: 6rem auto 2rem auto;
   display: flex;
@@ -18,10 +45,7 @@ position: relative;
   align-content: center;
   background-color: whitesmoke;
 }
-.card:hover,
-.proceed:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+
 .big-para {
   text-align: center;
   margin: 10px auto;
@@ -35,7 +59,7 @@ position: relative;
     width: 50%;
     height: 10%;
     border-radius: 8px;
-  background-color: hsl(225, 100%, 94%);
+  background-color: hsl(225, 100%, 98%);
  
 }
 .music_icon{
@@ -59,7 +83,7 @@ position: relative;
     margin-top: 2px;
     line-height: 2rem;
 }
-.change{
+.change_div{
     flex: 1;
     align-self: center;
 }
@@ -77,6 +101,9 @@ position: relative;
 
 .cancel_order {
   display: inline-block;
+  align-self: center;
+  border:none;
+  width: fit-content;
   font-weight: 700;
   justify-content: center;
   margin: 20px;
@@ -85,12 +112,7 @@ position: relative;
   border-width: 0;
   background-color: whitesmoke;
 }
-.background_svg {
-    position: absolute;
-    z-index: -1;
-    margin: 0;
 
-}
 .hero {
     margin: 0;
     padding: 0;
