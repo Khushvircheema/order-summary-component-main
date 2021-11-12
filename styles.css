@@ -1,13 +1,13 @@
-
-body,html {
+body,
+html {
   display: flex;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   background-color: hsl(225, 100%, 94%);
   flex-direction: column;
-position: relative;
-z-index: 1;
-background-image: url(/images/pattern-background-desktop.svg);
+  position: relative;
+  z-index: 1;
+  background-image: url(/images/pattern-background-desktop.svg);
 }
 /* @media (max-width: 375px) {
     background-image;
@@ -19,20 +19,18 @@ background-image: url(/images/pattern-background-desktop.svg);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.proceed:hover{
-   background-color: hsla(245, 75%, 52%, 0.637) ;
-
+.proceed:hover {
+  background-color: hsla(245, 75%, 52%, 0.637);
 }
-a:hover{
-    color: hsla(245, 75%, 52%, 0.637);
-   text-decoration: none;
+a:hover {
+  color: hsla(245, 75%, 52%, 0.637);
+  text-decoration: none;
 }
-.cancel_order:hover{
-    color: black;
+.cancel_order:hover {
+  color: black;
 }
 
 /* card */
-
 
 .card {
   margin: 6rem auto 2rem auto;
@@ -54,39 +52,37 @@ a:hover{
   color: gray;
 }
 .small_box {
-    display: flex;
-    margin: 10px auto;
-    padding: 6px 30px;
-    width: 50%;
-    height: 10%;
-    border-radius: 8px;
+  display: flex;
+  margin: 10px auto;
+  padding: 6px 30px;
+  width: 50%;
+  height: 10%;
+  border-radius: 8px;
   background-color: hsl(225, 100%, 98%);
- 
 }
-.music_icon{
-    align-self: center;
-    margin: auto;
+.music_icon {
+  align-self: center;
+  margin: auto;
 }
 .small-para {
-
-    flex:1;
+  flex: 1;
   font-size: 1rem;
   margin: 10px;
   justify-content: center;
   font-weight: normal;
   color: gray;
 }
-.small_heading{ 
-    font-weight: 700;
-    flex:1;
- 
-    margin-right: 2rem;
-    margin-top: 2px;
-    line-height: 2rem;
+.small_heading {
+  font-weight: 700;
+  flex: 1;
+
+  margin-right: 2rem;
+  margin-top: 2px;
+  line-height: 2rem;
 }
-.change_div{
-    flex: 1;
-    align-self: center;
+.change_div {
+  flex: 1;
+  align-self: center;
 }
 .proceed {
   width: 20rem;
@@ -103,7 +99,7 @@ a:hover{
 .cancel_order {
   display: inline-block;
   align-self: center;
-  border:none;
+  border: none;
   width: fit-content;
   font-weight: 700;
   justify-content: center;
@@ -115,8 +111,7 @@ a:hover{
 }
 
 .hero {
-    margin: 0;
-    padding: 0;
-    border-radius: 10px 10px 0px 0px;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 10px 0px 0px;
 }
-
