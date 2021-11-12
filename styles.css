@@ -8,6 +8,7 @@ html {
   position: relative;
   z-index: 1;
   background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
 }
 /* @media (max-width: 375px) {
     background-image;
