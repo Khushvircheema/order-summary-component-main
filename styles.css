@@ -9,10 +9,22 @@ html {
   z-index: 1;
   background-image: url(/images/pattern-background-desktop.svg);
   background-repeat: repeat-x;
+margin: 0;
 }
-/* @media (max-width: 375px) {
-    background-image;
-} */
+@media screen and (max-width: 490px) {
+  body,html{ background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: repeat-x;
+  }
+  .card{
+  align-self: center;
+  justify-content: center;
+  width:50%;
+  }
+ .hero{
+     position:absolute;
+  bottom: 29.5rem;
+ }
+}
 
 /* Hover states */
 .card:hover,
@@ -115,4 +127,5 @@ a:hover {
   margin: 0;
   padding: 0;
   border-radius: 10px 10px 0px 0px;
+
 }
